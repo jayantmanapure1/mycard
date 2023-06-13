@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Dosis', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+.outer-class{
+   width: 100vw;
+   height:100vh;
+   background:black;
+   
+}
+.inner-class{
+   width: 400px;
+   padding: 20px 40px;
+   margin: 0 auto;
+   position: relative;
+   top: 25%;
+   border-radius: 10%;
+   backdrop-filter: blur(8px);
+  background: linear-gradient(  #74737333, #74737333);
+  opacity: 1;
+  color: aliceblue;
+  z-index: 1;
+ 
+}
+.imag1{
+   padding: 10px;
+   text-align: center;
+   
+}
+.imag1 h1{
+   font-size: 1rem;
+   
+}
+.img1{
+   width: 150px;
+   border-radius: 100%;
+   
+}
+.para{
+   text-align: center;
+}
+.logo{
+   display: flex;
+   flex-direction: row;
+   padding: 10px;
+   justify-content: center;
+   margin-top: 10px;
+   
+}
+.instagram , .facebook, .google, .whatsapp{
+   margin:0 10px;
+   border-radius: 100px;
+   width: 50px;
+   background:linear-gradient(rgb(15, 14, 14));
+}
+.inta{
+   width:30px;
+}
+.face{
+   width:30px;
+}
+.goog{
+   width: 30px;
+}
+.what{
+   width:30px;
+}
+
+.but{
+   text-align: center;
+}
+#submit{
+   border: none;
+   width: 100px;
+   height:35px;
+   border-radius: 10%;
+   background: linear-gradient(  #74737333, #74737333);
+   color: white;
+   cursor: pointer;
+}
+.circle{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+   
+   position: absolute;
+
+}
+.c1{
+   top:100px;
+   left:420px;
+   background-color: blue;
+}
+a{
+   text-decoration: none;
+}
+.c2{
+   bottom: 100px;
+   right:420px;
+   background:linear-gradient(to top left, #ffa600,#ffff00);
+}
